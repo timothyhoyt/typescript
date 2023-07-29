@@ -1,17 +1,59 @@
-//thirty days hath September, April, June and November, All the Rest hath 31 except February 28, in leap 29. 
-let Jan = 1
-let Feb = 2
-let Mar = 3
-let Apr = 4
-let May = 5
-let Jun = 6
-let Jul = 7
-let Aug = 8
-let Sep = 9
-let Oct = 10
-let Nov = 11
-let Dec = 12
-let monthNum : number = 1
-let isLeapYear : boolean = false ;
-console.log ; monthNum
+let monthNum: number=23 ;
 
+let January: number=1 ;
+let February: number=2;
+let March:number=3;
+let April:number=4;
+let May:number=5;
+let June:number=6;
+let July:number=7;
+let August:number=8;
+let September:number=9;
+let October:number=10;
+let November:number=11;
+let December:number=12;
+
+let isLeapYear : boolean = true; 
+
+if(monthNum==January) {
+    console.log ("January has 31 days.");
+}
+else if(!isLeapYear && February==monthNum) {
+    console.log ("February has 28 days.");
+}
+else if(isLeapYear && February==monthNum){
+    console.log("February has 29 days.");
+}
+else if(monthNum==March) {
+    console.log ("March has 31 days.");
+}
+else if(monthNum==April) {
+    console.log ("April has 30 days.");
+}
+else if(monthNum==May) {
+    console.log ("May has 31 days.");
+}
+else if(monthNum==June) {
+    console.log ("June has 30 days.");
+} 
+else if (monthNum==July) {
+    console.log ("July has 31 days.");
+}
+else if (monthNum==August) {
+    console.log ("August has 31 days.");
+} 
+else if (monthNum==September) {
+    console.log ("September has 30 days.");
+}
+else if (monthNum==October) {
+    console.log ("October has 31 days.");
+} 
+else if (monthNum==November) {
+    console.log ("November has 30 days.");
+}
+else if (monthNum==December) {
+    console.log ("December has 31 days.");
+}
+else {
+    console.log ("This is not a month number.");
+}
