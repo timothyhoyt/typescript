@@ -8,7 +8,7 @@ const contestantNumber4Guess:number=444;
 if(contestantNumber1Guess>actualRetailPrice){
     console.log("Contestant Number 1 is OVER! Sorry, you lose.")
 }else if(contestantNumber1Guess<actualRetailPrice){
-    console.log("Contestant number 1 is under")
+    console.log("Contestant number 1 is under");
 }else(console.log("Contestant Number 1 got a PERFECT MATCH! You win an extra $100."))
 
 if(contestantNumber2Guess>actualRetailPrice){
